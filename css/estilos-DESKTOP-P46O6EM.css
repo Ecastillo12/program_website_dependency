@@ -1,0 +1,87 @@
+/*PALETA DE COLORES
+Azul: #01BEEC
+Blanco: #E2DDF6
+Rosa: #DF017A
+Naranja: #F6690B
+Amarillo: #FFD600
+*/
+.logos{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#desple{
+    background-color: #b4004c;
+    color: white;
+}
+.icon-bar{
+    background-color: white;
+}
+#barra{
+    background: #DF017A;
+}
+.active{
+    background-color: #b4004c;
+}
+li a:hover{
+    color: #D6D8E5;
+}
+li a{
+    font-size: 24px;
+    color: white;
+}
+.jumbotron{
+    background: #01BEEC;
+    color: #fff;
+    padding: 20px 0;
+}
+.jumbotron .titulo-pag{
+    font-size: 50px;
+}
+.cabeza img{
+    height: 90px;
+}
+.menu{
+    background-color: #DF017A;
+}
+#logo-menu{
+    width: 30px;
+}
+.accesos h2{
+    color: #DF017A;
+}
+.accesos{
+    color: white;
+}
+.acceso{
+    list-style: none;
+    background-color: #01BEEC;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.descripcion img{
+    max-width: 800px;
+}
+.linea{
+    text-align:left;
+    background-color: #FFD600;
+    color: #ffff;
+    height: 2px;
+}
+.descripcion{
+    background-color: #DF017A;
+    color: #ffff;
+    font-size: 20px;
+    text-align: justify;
+}
+.maestro img{
+    margin-top: 10px;
+    max-width: 200px;
+}
+.maestro{    
+    background-color: #01BEEC;
+    color: #ffff;
+}
+
+

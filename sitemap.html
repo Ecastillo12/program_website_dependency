@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapa de sitio</title><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="img/LogoPalomas.png">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/scrollStyle.min.css">
+    <script src="js/scrollreveal.min.js"></script>
+    <script>
+      (function(){
+
+        var config = {
+          viewFactor : 0.15,
+          duration   : 800,
+          distance   : "0px",
+          scale      : 0.8,
+        }
+
+        window.sr = new ScrollReveal(config)
+      })()
+
+    </script>
+    <style>
+      .sr .hero,
+      .sr .intro,
+      .sr .demo .block {
+        visibility: hidden;
+      }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="sticky-top">
+            <nav class="menu navbar navbar-expand-md">
+                <a id="palomas" class="navbar-brand" href="index.html"><i class="fas fa-dove"></i>Palomas Mensajeras</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><img id="logo-menu" src="img/Logo-menu.png" alt=""></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="text-center navbar-nav ml-md-auto">                       
+                        <a class="nav-item nav-link active-1" href="index.html"><i class="fas fa-home"></i> Inicio</a>
+                        <a class="nav-item nav-link" href="#" data-toggle="modal" data-target="#registro">Registrarse</a>
+                        <a class="nav-item nav-link" href="#" data-toggle="modal" data-target="#requisitosModal">Requisitos</a>
+                        <a class="nav-item nav-link" href="#" data-toggle="modal" data-target="#contacto">Contacto</a>
+                        <a class="nav-item nav-link active-1" href="#" data-toggle="modal" data-target="#iniciarSesion"><i class="fas fa-sign-in-alt"></i> Iniciar</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div id="sitemap">
+    
+    <div class="crown">
+      <svg viewbox="0 0 48 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="logo">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <rect fill="#FFCB36" x="3" y="0" width="6" height="18" rx="1.5"></rect>
+          <rect fill="#008597" x="27" y="0" width="6" height="32" rx="1.5"></rect>
+          <rect fill="#2EAD6D" x="15" y="0" width="6" height="8" rx="1.5"></rect>
+          <rect fill="#E31D65" x="15" y="14" width="6" height="18" rx="1.5"></rect>
+          <rect fill="#E31D65" x="39" y="0" width="6" height="18" rx="1.5"></rect>
+          <rect fill="#FF7C35" x="3" y="24" width="6" height="8" rx="1.5"></rect>
+          <rect fill="#5943AA" x="39" y="24" width="6" height="8" rx="1.5"></rect>
+        </g>
+      </svg>
+    </div>
+    <div class="hero">
+    <h1 class="labbel"><img src="img/user.png" alt="user" width="180px" height="150px"> Mapa de Sitio
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <rect fill="#FFCB36" x="3" y="0" width="6" height="18" rx="1.5"></rect>
+          <rect fill="#008597" x="27" y="0" width="6" height="32" rx="1.5"></rect>
+          <rect fill="#2EAD6D" x="15" y="0" width="6" height="8" rx="1.5"></rect>
+          <rect fill="#E31D65" x="15" y="14" width="6" height="18" rx="1.5"></rect>
+          <rect fill="#E31D65" x="39" y="0" width="6" height="18" rx="1.5"></rect>
+          <rect fill="#FF7C35" x="3" y="24" width="6" height="8" rx="1.5"></rect>
+          <rect fill="#5943AA" x="39" y="24" width="6" height="8" rx="1.5"></rect>
+        </g>
+    </h1>
+    </div>
+    <div class="demo">
+      <div class="column">
+      <h1 class="labbel">Página de Inicio</h1>
+       <a class="links block red seq-1 d-flex align-items-center" href="#" data-toggle="modal" data-target="#iniciarSesion">
+           <div class="">
+           <h1 class="labbel">Inicio de sesión</h1>
+            <br>
+            <p class="labbel2">Iniciar sesión para acceder a las funciones de administrador o de usuario.</p><br>
+            </div>
+       </a>
+        <a href="" class="links block orange d-flex align-items-center" data-toggle="modal" data-target="#requisitosModal"><div class="">
+        <h1 class="labbel">Requisitos</h1>
+        <br>
+        <p class="labbel2">Consultar los requisitos principales para poder ser parte del programa, y posteriormente realizar el registro.</p>
+        </div></a>
+        <a href="" class="links block purple d-flex align-items-center" data-toggle="modal" data-target="#registro">
+            <div class="">
+            <h1 class="labbel">Registro</h1><br>
+            <p class="labbel2">Ingresar al formulario de registro de usuario, con el que posteriormente poder registrar a un nuevo solicitante.</p>
+        </div>
+        </a>
+        <a href="" class="links block yellow d-flex align-items-center" data-toggle="modal" data-target="#contacto"><div class="">
+            <h1 class="labbel">Contacto</h1>
+            <br>
+            <p class="labbel2">Datos de contacto en caso de realizar alguna aclaración</p>
+        </div></a>
+      </div>
+      <div class="column">
+      <h1 class="labbel">Vista de usuario</h1>
+       <a href="" class="links block orange seq-1 d-flex align-items-center" data-toggle="modal" data-target="#iniciarSesion">
+            <div class="">
+           <h1 class="labbel">Agregar a un solicitante</h1>
+            <br>
+            <p class="labbel2">Poder agregar a una persona al programa, es necesario haberse registrado en el sitio e iniciar sesión.</p>
+            </div>
+       </a>
+         <a href="" class="links block green d-flex align-items-center" data-toggle="modal" data-target="#iniciarSesion">
+            <div class="">
+            <h1 class="labbel">Ver información sobre el solicitante</h1><br>
+            <p class="labbel2">Se puede ver la información principal del solicitante y el avance o estado del mismo. </p></div>
+        </a>
+          <a href="" class="links block purple d-flex align-items-center"><div class="">
+            <h1 class="labbel">Consultar citas</h1>
+            <br>
+            <p class="labbel2">Pueden consultarse las citas pendientes; fecha, hora y estado actual.</p>
+        </div></a>
+        </div>
+      <div class="column">
+      <h1 class="labbel">Vista de admin</h1>
+      <h6>Es necesario iniciar sesión como administrador.</h6>
+       <a href="" class="links block yellow seq-1 d-flex align-items-center" data-toggle="modal" data-target="#iniciarSesion"><div class="">
+            <h1 class="labbel">Consultar solicitantes</h1>
+            <br>
+            <p class="labbel2">Ver una tabla de todos los solicitantes y su información principal. </p>
+        </div></a>
+        <a href="" class="links block blue d-flex align-items-center" data-toggle="modal" data-target="#iniciarSesion">            
+        <div class="">
+            <h1 class="labbel">Modificar/eliminar Solicitantes</h1><br>
+            <p class="labbel2">Se puede realizar una modificación en la información del solicitante.</p>
+        </div>
+        </a>
+        <a href="" class="links block green d-flex align-items-center" data-toggle="modal" data-target="#iniciarSesion">
+            <div class="">
+            <h1 class="labbel">Asignar cita a solicitante</h1><br>
+            <p class="labbel2">Se puede asignar una cita a un nuevo solicitante, para que este acuda a ella.</p></div>
+        </a>
+        <a class="links block red d-flex align-items-center" href="#" data-toggle="modal" data-target="#iniciarSesion">
+           <div class="">
+           <h1 class="labbel">Cumplir una cita</h1>
+            <br>
+            <p class="labbel2">Cambia el estado actual de una cita, para ofrecer la información al solicitante.</p><br>
+            </div>
+       </a>
+        </div>
+    <script>
+      var stars
+      var data
+      var url
+      var xhr = new XMLHttpRequest()
+
+      url = "https://api.github.com/repos/jlmakes/scrollreveal.js"
+
+      xhr.open( "GET", url, true )
+
+      xhr.onreadystatechange = function(){
+        if ( xhr.readyState == 4 ) {
+          if ( xhr.status >= 200 && xhr.status < 400 ){
+            data  = JSON.parse( xhr.responseText )
+            stars = document.querySelectorAll(".github .stars .count")
+            stars[0].innerHTML = stars[1].innerHTML = addCommasToNum( data.stargazers_count )
+          } else {
+            console.warn("Failed to resolve GitHub API.\n")
+          }
+        }
+      }
+
+      xhr.send()
+
+    </script>
+    <script>
+
+      var hero = {
+        origin   : "top",
+        distance : "24px",
+        duration : 1500,
+        scale    : 1.05,
+      }
+
+      var intro = {
+        origin   : "bottom",
+        distance : "64px",
+        duration : 900,
+        delay    : 1500,
+        scale    : 1,
+      }
+
+      var github = {
+        origin   : "top",
+        distance : "32px",
+        duration : 600,
+        delay    : 1800,
+        scale    : 0,
+      }
+
+      var block = {
+        reset: true,
+        viewOffset: { top: 64 }
+      }
+
+      sr.reveal(".demo .block", block)
+      sr.reveal(".hero", hero)
+      sr.reveal(".intro", intro)
+      sr.reveal(".hero .github", github)
+      sr.reveal(".seq-1", block, 200)
+
+      function addCommasToNum( num ){
+        return num.toString().replace( /\B(?=(\d{3})+(?!\d))/g, "," )
+      }
+
+    </script>
+    <script>
+      var crown = document.querySelector(".crown")
+      var demo  = document.querySelector(".demo")
+
+      window.addEventListener( "scroll", scrollBrain, false )
+
+      var body = document.body,
+          html = document.documentElement;
+
+      var height = Math.max( body.scrollHeight, body.offsetHeight,
+                             html.clientHeight, html.scrollHeight, html.offsetHeight )
+
+      function scrollBrain(){
+
+        if ( window.pageYOffset >= demo.offsetTop + 64 ){
+          return crown.classList.add("visible")
+        }
+        if ( crown.classList.contains("visible") ){
+          return crown.classList.remove("visible")
+        }
+        if ( window.pageYOffset >= 0.85 * ( height - window.clientHeight ) ) {
+          _gaq.push([ '_trackEvent', 'Behavior', 'Scroll', 'Viewed the entire page.'])
+        }
+      }
+
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga')
+
+      ga("create", "UA-55186174-1", "auto")
+      ga("send", "pageview")
+    </script>
+    </div>
+    <!-- INICIO DE SESION -->
+    <div class="modal fade" id="iniciarSesion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h3 font-weight-normal" id="exampleModalLabel">Iniciar sesión</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <form action="php/iniciar_sesion.php" method="post" class="form-signin">
+                        <img class="mb-4" src="img/user.png" alt="" width="92" height="82">
+                        <label for="inputEmail" class="sr-only">CURP</label>
+                        <input type="text" id="inputCURP" name="inputCURP" class="form-control" placeholder="CURP" required autofocus onkeyup="mayus(this);" maxlength="18">
+                        <label for="inputPassword" class="sr-only">Contraseña</label>
+                        <input type="password" id="inputPassword" name="inputPassword" class="form-control" placeholder="Contraseña" required="">
+                        <div class="checkbox mb-3">
+                            <label>
+                              <input type="checkbox" value="remember-me"> Recordarme
+                            </label>
+                        </div>
+                        <button class="btn btn-lg btn-primary btn-block" name="iniciar" type="submit">Entrar</button>
+                    </form>
+                    <hr>
+                    <a class="text-info" href="#" data-toggle="modal" data-target="#registro"><button class="btn btn-lg btn-block btn-outline-primary">Registrarse</button></a>
+                </div>
+                <div class="modal-footer ">
+                    <p class="my-auto mx-auto text-muted">© 2017-2018</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- REGISTRO -->
+    <div class="modal fade" id="registro" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h3 font-weight-normal" id="exampleModalLabel">Registro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <form method="post" action="php/registro.php" class="form text-dark">
+                        <div class="form-row">
+                            <div class="col">
+                              <label for="inputRegNombres">Nombre(s)</label>
+                              <input onkeyup="mayus(this);" id="inputRegNombres" name="inputRegNombres" type="text" class="form-control" placeholder="Nombre(s)" required="">
+                            </div>
+                            <div class="col">
+                              <label for="inputRegApPat">Apellido paterno</label>
+                              <input onkeyup="mayus(this);" id="inputRegApPat" name="inputRegApPat" type="text" class="form-control" placeholder="Paterno" required="">
+                            </div>
+                            <div class="col">
+                              <label for="inputRegApMat">Apellido materno</label>
+                              <input onkeyup="mayus(this);" id="inputRegApMat" name="inputRegApMat" type="text" class="form-control" placeholder="Materno" required="">
+                            </div>
+                        </div>
+                        <label for="inputRegCurp">CURP</label>
+                        <input onkeyup="mayus(this);" type="text" id="inputRegCurp" name="inputRegCurp" class="form-control" placeholder="CURP" required="" maxlength="18">
+                        <label for="inputRegCorreo">Correo electrónico</label>
+                        <input type="email" id="inputRegCorreo" name="inputRegCorreo" class="form-control" placeholder="Correo electrónico" required="">
+                        <label for="inputRegPassword">Contraseña</label>
+                        <input type="password" id="inputRegPassword" name="inputRegPassword" class="form-control" placeholder="Contraseña" required="">
+                        <!-- 
+                        <label for="inputRegPassword2">Repita contraseña</label>
+                        <input type="password" id="inputRegPassword2" class="form-control" placeholder="Repita contraseña" required="">
+                         -->
+                        <button class="btn btn-lg btn-primary btn-block mt-3" type="submit">Registrarse!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--REQUISITOS-->
+    <div class="modal fade" id="requisitosModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h3 font-weight-normal" id="exampleModalLabel">Requisitos del programa:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                <ul class="list-group list-group-flush" >
+                    <li class="list-group-item">Requisito n</li>
+                    <li class="list-group-item">Requisito n</li>
+                    <li class="list-group-item">Requisito n</li>
+                    <li class="list-group-item">Requisito n</li>
+                    <li class="list-group-item">Requisito n</li>
+                    <li class="list-group-item">Requisito n</li>
+                    <li class="list-group-item">Requisito n</li>
+                    <li class="list-group-item">Requisito n</li>
+                    <li class="list-group-item">Requisito n</li>
+                    <li class="list-group-item">Requisito n</li>
+                    <li class="list-group-item">Requisito n</li>
+                    <li class="list-group-item">Requisito n</li>
+                </ul>
+                </div>
+                <div class="modal-footer ">
+                    <p class="my-auto mx-auto text-muted">© 2017-2018</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTACTO -->
+    <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h3 font-weight-normal" id="exampleModalLabel">Contacto:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                <p style="text-align: justify">
+                  Autem molestiae accusantium ipsa voluptas impedit, magnam ratione!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ex numquam <strong>(000) 000 0000</strong> quod id alias a blanditiis <strong>(00) 000 000 0000</strong>. <br>aliquid aperiam nam est, optio aspernatur  <strong>correo@electronico.com</strong>.
+                </p>
+                </div>
+                <div class="modal-footer ">
+                    <p class="my-auto mx-auto text-muted">© 2015-2021</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid separador">
+    <div class="row">
+        
+			<div class="col-xs-2 col-sm-2 col-md-2 azul"></div>
+			<div class="col-xs-2 col-sm-2 col-md-2 morado"></div>
+			<div class="col-xs-2 col-sm-2 col-md-2 amarillo"></div>
+			<div class="col-xs-2 col-sm-2 col-md-2 vino"></div>
+			<div class="col-xs-2 col-sm-2 col-md-2 verde"></div>
+			<div class="col-xs-2 col-sm-2 col-md-2 magenta"></div>
+    </div>
+    </div>
+    <footer class="footers">
+        <div class="container-fluid row">
+            <div class="col-md-3 col-sm-3">
+               <p style="text-align: center"><img src="img/pngfuel.com.png" alt="gray logo" style="width: 100px"></p>
+            </div>            
+            <br>
+            <div class="col-md-3 col-sm-3">
+               <br>
+                <h6>Información y Trámites</h6>
+                <a href="#">Historial de publicaciones</a><br>
+                <a href="#">Aviso de proteccion de datos</a><br>
+                <a href="#">Correo institucional</a>
+            </div>
+            <div class="col-md-3 col-sm-3">
+               <br>
+                <h6>Asistencia y Emergencia</h6>
+                <a href="">00 000 0000</a><br>
+                <a href="">00 000 0000</a><br>
+                <a href="">00 000 0000</a><br>
+                <a href="">00 000 0000</a><br>
+                <a href="">00 000 0000</a><br>
+            </div>
+            <br>
+            <br>
+            <div class="col-md-3 col-sm-3">
+              <p style="text-align: center"><img id="escudoPeque" src="img/pngfuel.com.png" style="width: 50px" alt=""></p>
+              <div class="iconos">
+                   <p style="text-align: center">
+                   <a class="icono" href="#" data-toggle="tooltip" title="Twitter"><i class="fab fa-twitter fa-w-14 fa-lg"></i></a>
+                    <a class="icono" href="#" data-toggle="tooltip" title="Facebook"><i class="fab fa-facebook fa-w-14 fa-lg"></i></a>
+                    <a class="icono" href="#" data-toggle="tooltip" title="YouTube"><i class="fab fa-youtube fa-w-14 fa-lg" ></i></a>
+                    <a class="icono" href="#" data-toggle="tooltip" title="Instagram"><i class="fab fa-instagram fa-w-20 fa-lg "></i></a>
+               </p>
+              </div>
+            </div>
+        </div>
+        <p style="text-align: center">&copy; 2018  |  Desarrollado por Eduardo Castillo y Carlos Ramos  | <a id="tec" href="http://www.itspa.edu.mx/">Instituto Tecnológico Superior de Pátzcuaro</a></p>
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        function mayus(e) {
+            e.value = e.value.toUpperCase();
+        }    
+    </script>
+    <script>
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          videoId: '4EJxBe19y74',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event;
+      }
+
+      // 5. The API calls this function when the player's state changes.
+      //    The function indicates that when playing a video (state=1),
+      //    the player should play for six seconds and then stop.
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          setTimeout(stopVideo, 124000);
+          done = true;
+        }
+      }
+      function stopVideo() {
+        player.stopVideo();
+      }
+    </script>
+</body>
+</html>
